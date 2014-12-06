@@ -1,0 +1,177 @@
+*
+{
+	padding:0;
+	margin:0;
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:#E9E9E9;
+}
+
+div
+{
+	/*border:1px solid black;*/
+}
+
+div#header
+{
+	position:fixed;
+	height:40px;
+	width:100%;
+	background-image:url(header_back.png);
+	padding-left:21%;
+}
+
+img
+{
+	background-image:url(header_back.png);
+}
+
+div#gap
+{
+	height:40px;
+	width:100%;
+	background-image:url(header_back.png);
+}
+
+div#body
+{
+	width:900px;
+	margin:auto;
+}
+
+							/*Navigation Start*/
+
+div#navigation
+{
+	float:left;
+	width:20%;
+}
+
+ul#navigation_list
+{
+	/*list-style-type:none;*/
+	width: 100%;
+	float: right;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #ccc; 
+	border-top: 1px solid #ccc;
+}
+
+li.navigation_item
+{
+	float: left;
+}
+
+a.navigation_a:link
+{
+	/*display:block;
+	width:inherit;
+	text-align:center;
+	text-decoration:none;
+	padding:15px;*/
+	/*border:1px solid black;*/
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #069;
+	border-right: 1px solid #ccc;
+}
+
+a.navigation_a:hover
+{
+	/*display:block;
+	width:inherit;
+	text-align:center;
+	text-decoration:none;
+	padding:20px;
+	background-color:#F0F0F0;*/
+	/*border:1px solid black;*/
+	color: #c00;
+	background-color: #fff;
+}
+
+							/*Navigation End*/
+							
+							/*Status Start*/
+
+div#status
+{
+	float:left;
+	width:50%;
+	border-left:7px solid #919191;
+}
+
+ul#status_list
+{
+	list-style-type:none;
+}
+
+div.status_div
+{
+	width:inherit;
+	background-color:#F00;
+	border-top:1px solid #919191;
+}
+
+div.status_text
+{
+	width:100%;
+	padding:2%;
+}
+
+div.status_detail
+{
+	width:inherit;
+	height:30px;
+	/*background-color:#F00;*/
+}
+
+div.status_room
+{
+	float:left;
+	width:40%;
+	height:100%;
+	/*background-color:#F00;*/
+}
+
+div.status_author
+{
+	float:right;
+	height:100%;
+	margin-right:0px;
+	/*background-color:#FF0;*/
+}
+
+div#give_status
+{
+	top:40px;
+	width:40%;
+	height:50px;
+}
+
+							/*Status End*/
+							
+							/*Add Start*/
+
+div#add
+{
+	float:left;
+	width:29%;
+	height:inherit;
+}
+
+ul#add_list
+{
+	list-style-type:none;
+}
+
+div.add_div
+{
+	width:inherit;
+	height:150px;
+}
+
+							/*Add End*/
